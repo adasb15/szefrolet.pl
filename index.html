@@ -1,70 +1,30 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SzefRolet</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<style>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Lovable App</title>
+    <meta name="description" content="SzefRolet offers a website for a company specializing in window and door roller shutter sales and installation.">
+    <meta name="author" content="Lovable" />
 
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: radial-gradient(circle at top, #1e293b, #0f172a 70%);
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  text-align: center;
-  overflow: hidden;
-}
+    <!-- TODO: Update og:title to match your application name -->
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/475ccbd7-bd54-4dfb-a979-43f2b1b7c7e7/id-preview-a927a556--2ee12383-98e8-4bd6-a2a3-116f7c9d1cc5.lovable.app-1778019757375.png">
 
-.container {
-  max-width: 700px;
-  padding: 40px;
-  animation: fadeIn 1.2s ease forwards;
-}
-
-.logo {
-  max-width: 300px;
-  width: 80%;
-  margin-bottom: 30px;
-  filter: drop-shadow(0 0 20px rgba(255, 165, 0, 0.4));
-  transition: transform 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05);
-}
-
-h1 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-
-p {
-  font-size: 16px;
-  opacity: 0.7;
-  margin: 5px 0;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-</style>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/475ccbd7-bd54-4dfb-a979-43f2b1b7c7e7/id-preview-a927a556--2ee12383-98e8-4bd6-a2a3-116f7c9d1cc5.lovable.app-1778019757375.png">
+    <meta property="og:title" content="Lovable App">
+  <meta name="twitter:title" content="Lovable App">
+  <meta property="og:description" content="SzefRolet offers a website for a company specializing in window and door roller shutter sales and installation.">
+  <meta name="twitter:description" content="SzefRolet offers a website for a company specializing in window and door roller shutter sales and installation.">
 </head>
-<body>
-  <div class="container">
-    <img src="szefrolet_2 (1).png" alt="SzefRolet Logo" class="logo">
-    <h1>Okna, drzwi, rolety zewnętrzne i wewnętrzne</h1>
-    <p>Strona oraz system w budowie.</p>
-    <p>Tu na razie jest ściernisko, ale będzie rolecisko.</p>
-    <p>Jeszcze chwila, jeszcze moment.</p>
-  </div>
-</body>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
