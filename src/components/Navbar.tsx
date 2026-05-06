@@ -15,6 +15,11 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-sm">
+      <div className="bg-primary text-primary-foreground">
+        <div className="container mx-auto px-4 py-2 text-center text-xs sm:text-sm font-medium">
+          Strona jest w trakcie budowy. Treści i realizacje mogą być jeszcze uzupełniane.
+        </div>
+      </div>
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <a href="#hero" className="flex items-center gap-2">
           <img src={logo} alt="SzefRolet logo" className="h-14 w-auto" />
