@@ -70,7 +70,7 @@ const Navbar = () => {
             className="flex items-center justify-center gap-2 mt-3 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold"
           >
             <Phone className="w-4 h-4" />
-            +48 123 456 789
+            +48 603 346 417
           </a>
         </div>
       )}
